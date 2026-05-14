@@ -24,9 +24,12 @@ body {
   color: #666;
 }
 
-.works {
+.works_about{
   width: 80%;
   margin: auto;
+}
+
+.works {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
@@ -52,9 +55,14 @@ body {
   display: block;
 }
 
-.card h2 {
+.card h3 {
   padding: 20px;
   font-size: 18px;
+}
+
+.prof{
+  width: 80%;
+  margin: auto;
 }
 
 .detail {
